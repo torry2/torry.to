@@ -388,6 +388,6 @@ Travelling the ~50 hours from down under to Katowice Poland to play in person wa
 
 ---------------- 
 
---> Share via <a href="https://torrytw.ooo/index/p4-ctf-finals-scoundrelike-re/">link</a>  
---> Return to the <a href="https://torrytw.ooo/index/">Index</a>
+--> Share via <a href="https://torry.to/index/p4-ctf-finals-scoundrelike-re/">link</a>  
+--> Return to the <a href="https://torry.to/index/">Index</a>
 
