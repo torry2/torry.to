@@ -4,7 +4,7 @@ title: "Contact"
 ###### `$ whois torry.to | grep -e "Contact"`
 ----------------
   
-mail [at] torrytw [dot] to    
+mail [at] torry [dot] to    
 matrix: @torry2:matrix.org  
 
 ----------------  
