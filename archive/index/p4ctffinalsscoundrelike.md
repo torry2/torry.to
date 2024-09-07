@@ -2,7 +2,7 @@
 title: "p4 CTF Finals - Scoundrelike (re)"
 date: 2023-06-22T00:00:00+08:00
 sort: ["all", "ctf", "featured", "writeup", "rev"]
-draft: false
+draft: true
 ---
 ![image](/static/scoundrelike/scoundrelike.gif)
 

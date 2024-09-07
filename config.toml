@@ -1,54 +1,27 @@
 baseURL = "https://torry.to"
 publishDir = "public"
 title = "torry2"
-theme = "etch"
+theme = "index"
 themesDir = "themes"
 languageCode = "en"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
-[params]
-  dark = "auto"
-  homepage = "https://torrytw.ooo"
+[params]  
+  homepage = "https://torry.to"
   description = "internet website"
+  titleIcon = "/files/quacker.jpg"
   tags = ["web", "site"]
-  highlight = true
   copyright = "Copyright © 2024 torry2"
   license = "The Unlicense"
   licenselink = "https://raw.githubusercontent.com/torry2/torry.to/main/LICENSE"
 
-[taxonomies]
-    tag = "sort"
-
-[menu]
-  [[menu.main]]
-    identifier = "index"
-    name = "index"
-    title = "index"
-    url = "/index/"
-    weight = 10
-
-  [[menu.main]]
-    identifier = "sort"
-    name = "sort"
-    title = "sort"
-    url = "/sort/"
-    weight = 20   
-
-  [[menu.main]]
-    identifier = "contact"
-    name = "contact"
-    title = "contact"
-    url = "/contact/"
-    weight = 40
-     
 [permalinks]
-  
-  index = "/index/:title/"
-  
-[markup.tableOfContents]
-  ordered = true
+  tags = "@:slug"
+
+[taxonomies]
+  tag = "tags"
 
 [markup.goldmark.renderer]
   # html enabled in md

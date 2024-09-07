@@ -1,21 +1,16 @@
 ---
 title: "torry2"
+description: "security unprofessional"
 ---
-###### `$ su - torry2/torrytwooo -c "whoami"`
 ----------------
-security unprofessional 
 
 <!--
 hi im torry2 
 !-->
+internet website
+> [click me](javascript:alert(1)) 
 
-`>` <a href="https://torry.to/files/quacker.jpg">quacker</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;`>` <a href="https://emu.team">ctf @ Emu Exploit</a>	  
-`>` <a href="https://torry.to/sort/featured/">featured posts</a> &nbsp; &nbsp; &nbsp;`>` <a href="">!</a>
-   
 links:  
-[github](https://github.com/torry2) |
-[twitter](https://twitter.com/torry2_)  
-
-
-
-----------------
+[twitter](https://twitter.com/torry2_)  |
+[github](https://github.com/torry2)
+<hr style="border: 1px solid var(--secondary-hover);">
