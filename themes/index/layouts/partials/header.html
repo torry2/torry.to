@@ -1,0 +1,24 @@
+<header>
+  <h1>
+    {{ with site.Params.TitleIcon }}<a href="https://duck.ceo"><img src="{{ . | absURL }}" alt="{{ site.Title }}"></a>{{ end }}
+    <a href="{{ "" | absURL }}">      
+      <span>{{ site.Title }}</span>
+    </a>
+    {{- $is404 := eq .Kind "404" }}
+    {{- if and (not .IsHome) (not $is404) }}
+    <span class="hl">/</span>
+    <a href="{{.Permalink}}">
+      {{- if eq .Kind "term" }}
+      <span class="hl">{{ .Title }}</span>
+      {{- else }}
+      <span>{{ .Title }}</span>
+      {{- end }}
+    </a>
+    {{- end }}
+  </h1>
+  {{- if eq .Title "torry2" }}
+  <p class="desc">{{ .Description }} / <a href="contact" style="text-decoration:none">contact</a></p> <!-- display contact link on homepage only-->
+  {{- else }}
+  <p class="desc">{{ .Description }}</p>
+  {{- end }}
+</header>
